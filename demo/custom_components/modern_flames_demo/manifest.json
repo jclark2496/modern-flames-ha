@@ -1,0 +1,9 @@
+{
+  "domain": "modern_flames_demo",
+  "name": "Modern Flames Demo (fake fireplaces)",
+  "codeowners": [],
+  "documentation": "https://github.com/jclark2496/modern-flames-ha",
+  "iot_class": "calculated",
+  "requirements": [],
+  "version": "0.1.0"
+}

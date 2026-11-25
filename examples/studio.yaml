@@ -1,0 +1,5 @@
+# (D) Studio: every control in one card. Needs modern-flames-card.js as a dashboard resource.
+type: custom:modern-flames-card
+entity: climate.living_room_fireplace
+flame_style: glow        # or shader
+# demo: true             # try it with no fireplace; nothing is sent to Home Assistant

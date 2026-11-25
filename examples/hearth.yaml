@@ -1,0 +1,6 @@
+# (A) Hearth: hero card. Minimal glow is the default; set flame_style: shader for live fire.
+type: custom:button-card
+template: modern_flames_hearth
+entity: climate.living_room_fireplace
+# variables:
+#   flame_style: shader

@@ -1,0 +1,35 @@
+# Customisation examples (the cards in docs/customised.jpg).
+type: vertical-stack
+cards:
+  # Compact glow with three buttons and smaller corners
+  - type: custom:button-card
+    template: modern_flames_hearth
+    entity: climate.living_room_fireplace
+    variables:
+      compact: true
+      controls: [power, heat, timer]
+      radius: 14px
+  # Live fire, brighter, no colour-zone row, a Sync button
+  - type: custom:button-card
+    template: modern_flames_hearth
+    entity: climate.patio_fireplace
+    variables:
+      flame_style: shader
+      intensity: 1.3
+      show_zones: false
+      controls: [power, scene, speed, sync]
+  # Fixed preview colours and a calm pace that ignores the flame motor speed
+  - type: custom:button-card
+    template: modern_flames_hearth
+    entity: climate.den_fireplace
+    variables:
+      colors: {flame: '#ff7a1a', embers: '#ff3b0a', downlight: '#ffd28a'}
+      speed_sync: false
+      controls: [power, heat]
+  # Studio, compact, live fire, only the sections you pick
+  - type: custom:modern-flames-card
+    entity: climate.patio_fireplace
+    flame_style: shader
+    compact: true
+    radius: 18px
+    # show: [heat, target, colors, scene, speed, timer]

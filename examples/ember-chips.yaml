@@ -1,0 +1,9 @@
+# (B) Ember Chips — one compact row per fireplace
+type: vertical-stack
+cards:
+  - type: custom:button-card
+    template: modern_flames_chips
+    entity: climate.living_room_fireplace
+  - type: custom:button-card
+    template: modern_flames_chips
+    entity: climate.patio_fireplace
